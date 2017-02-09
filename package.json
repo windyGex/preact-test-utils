@@ -1,0 +1,38 @@
+{
+  "name": "preact-test-utils",
+  "version": "0.1.2",
+  "description": "preact test utils",
+  "main": "lib/index",
+  "files": [
+    "lib",
+    "src",
+    "docs",
+    "theme",
+    "README.md",
+    "HISTORY.md"
+  ],
+  "keywords": [
+    "next",
+    "preact-test-utils"
+  ],
+  "author": {
+    "name": "xing.gex",
+    "email": "xing.gex@alibaba-inc.com"
+  },
+  "scripts": {
+    "dev": "next-bin server",
+    "build": "next-bin build",
+    "prepublish": "next-bin build",
+    "test": "next-bin test",
+    "lint": "eslint '@(src|docs)/**/*.@(js|jsx|md)' || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:next/preact-test-utils.git"
+  },
+  "dependencies": {
+    "preact-compat": "^3.11.0",
+    "simulate-event": "^1.4.0"
+  },
+  "devDependencies": {}
+}
