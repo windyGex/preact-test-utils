@@ -19,6 +19,7 @@
     "name": "xing.gex",
     "email": "xing.gex@alibaba-inc.com"
   },
+  "license" : "MIT",
   "scripts": {
     "dev": "next-bin server",
     "build": "next-bin build",
