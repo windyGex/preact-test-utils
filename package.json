@@ -1,6 +1,6 @@
 {
   "name": "preact-test-utils",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "preact test utils",
   "main": "lib/index",
   "files": [
@@ -19,7 +19,7 @@
     "name": "xing.gex",
     "email": "xing.gex@alibaba-inc.com"
   },
-  "license": "MIT",
+  "license" : "MIT",
   "scripts": {
     "dev": "next-bin server",
     "build": "next-bin build",
